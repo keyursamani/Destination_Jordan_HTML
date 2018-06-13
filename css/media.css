@@ -1,0 +1,88 @@
+@media only screen and (min-width: 1261px) and (max-width: 1440px){
+	#fitemslider::before, #fitemslider::after {width: 165px;}
+}
+@media only screen and (max-width: 1439px){
+	header {padding: 19px 15px 14px;}
+	.custnav .menus > li {padding: 0 14px;}
+}
+@media only screen and (max-width: 1199px){
+	.custnav .menus > li {padding: 0 7px;}
+	.mainslider .slidertexts {bottom: 150px;}
+	.searchinner .cformbox {padding: 15px 20px 0 20px;}
+	.cformbox .fieldbox {width: 260px;}
+	.cformbox .cbttn {float: left; margin-left: 10px;}
+	#fitemslider::before, #fitemslider::after {width: 125px;}
+	.eventspart .sbox img {height: 215px;}
+	.eventspart .eventbox .eventdetails {padding: 0 20px;}
+	.projectspart .infopart {padding: 40px;}
+	.projectspart .owl-nav div.owl-prev {left: 274px;}
+	.projectspart .owl-nav div.owl-next {left: 323px;}
+	.projectspart .imgpart img {object-fit:cover; height: 460px;}
+	.newsletterpart .newsletterright {padding: 36px 30px 36px 20px;}
+	.newsletterpart .newsletterright .fieldbox {width: 260px;}
+	.newsletterpart .newsletterright .cbttn {width: 145px;}
+	.newsletterpart .newsletter {padding: 30px 18px 25px;}
+}
+@media only screen and (max-width: 991px){
+	header {padding: 15px;}
+	#mobilemenu {background-color: #0065b8; margin-top: 7px; cursor: pointer; background-image: url(../images/menuicon.png); background-repeat: no-repeat; background-position: center center; width: 40px; height: 40px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; float: right;}
+	.custnav {z-index: 11; left: inherit; position: static; float: right; top: inherit; transform:none; margin-left: 10px;}
+	.custnav .menus {display: none; position: absolute; width: 100%; top: 82px; left: 0; background-color: #ffffff; z-index: 11; box-shadow: 0px 7px 11px rgba(0,0,0,0.10); -moz-box-shadow: 0px 7px 11px rgba(0,0,0,0.10); -webkit-box-shadow: 0px 7px 11px rgba(0,0,0,0.10);}
+	.custnav .menus > li {width: 100%; padding: 10px 15px; border-top: 1px solid #f1f1f1;}
+	.socials {margin-top: 6px;}
+	.mainslider .owl-carousel .item .sliderimg img {object-fit:cover; height: 390px;}
+	.mainslider .slidertexts {bottom: 95px;}
+	.cformbox .fieldbox {width: 50% !important;}
+	.cformbox .fieldbox4 {width: 145px !important;}
+	.featuredpart, .eventspart {padding: 50px 0;}
+	#fitemslider::before, #fitemslider::after {display: none;}
+	.featureslider .owl-nav div.owl-prev {left: 10px;}
+	.featureslider .owl-nav div.owl-next {right: 10px;}
+	.projectspart .owl-nav div {bottom: 63px;}
+	.projectspart .owl-nav div.owl-prev {left: 227px;}
+	.projectspart .owl-nav div.owl-next {left: 276px;}
+	.brandpart .brandinner ul li a img {width: 150px;}
+	.brandpart .brandinner ul li:nth-child(3) a img {width: 90px;}
+	.newsletterpart .newsletterright .fieldbox {width: 272px;}
+	.footerpart .topfooter .fmenu li {padding-right: 15px;}
+}
+@media only screen and (max-width: 767px){
+	.container {padding: 0 15px;}
+	.projectspart .owl-nav div {bottom: 15px;}
+	.projectspart .owl-nav div.owl-prev {left: 15px;}
+	.projectspart .owl-nav div.owl-next {left: 64px;}
+	.projectspart .imgpart img {height: auto;}
+	.brandpart .brandinner ul li {width: 50%; height: 110px;}
+	.brandpart .brandinner ul li a {left: 50% !important; right: auto !important; transform: translate(-50%,-50%) !important; -moz-transform: translate(-50%,-50%) !important; -webkit-transform: translate(-50%,-50%) !important;}
+	.brandpart .brandinner ul li a img {width: auto !important;}
+	.newsletterpart .newsletter {padding: 30px;}
+	.newsletterpart .newsletterright {padding: 36px 20px;}
+	.newsletterpart .newsletterright .fieldbox {width: 50%;}
+	.newsletterpart .newsletterright .cbttn {margin-top: 10px;}
+	.footerpart .topfooter{padding: 30px 0 40px;}
+	.footerpart .topfooter .fmenu, .footerpart .socials {width: 100%; text-align: center;}
+	.footerpart .topfooter .fmenu li {display: inline-block; float: none; padding: 4px 10px;}
+	.footerpart .topfooter .socials a {display: inline-block; float: none; margin: 0 2px;}
+	.footerpart .copyright {padding: 20px 0 15px;}
+	.footerpart .copyright p {width: 100%; text-align: center;}
+}
+@media only screen and (max-width: 639px){
+	.cformbox .fieldbox {width: 100% !important;}
+	.cformbox .fieldbox4 {width: 145px !important;}
+	.slidertexts h1 {font-size: 37px;}
+	.slidertexts p {width: 100%; line-height: 19px;}
+	.newsletterpart .newsletterright .fieldbox {width: 100%; margin: 5px 0;}
+}
+@media only screen and (max-width: 479px){
+	.ctitle h2 {font-size: 27px;}
+	header .socials {display: none;}
+	.searchinner .titletext {padding: 0 15px;}
+	.searchinner .titletext::after {left: 15px;}
+	.searchinner .cformbox {padding: 25px 5px 0;}
+	.cformbox .fieldbox {margin-top: 10px;}
+	.projectspart .infopart {padding: 15px;}
+	.brandpart .brandinner ul li {width: 100%;}
+	.newsletterpart .newsletter {padding: 20px;}
+	.newsletterpart .newsletterright {padding: 20px 10px;}
+	.footerpart .topfooter .fmenu li {padding: 4px 8px;}
+}
